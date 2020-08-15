@@ -7,7 +7,7 @@ package factorial;
 
 /**
  *
- * @author 247
+ * @author Guntur Wicaksono
  */
 import java.util.Scanner;
 public class Factorial {
