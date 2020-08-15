@@ -24,10 +24,10 @@ public class Factorial {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner reader = new Scanner(System.in);
-        System.err.print("Masukkan angka yang ingin difactorialkan: ");
+        System.out.print("Masukkan angka yang ingin difactorialkan: ");
         int number = reader.nextInt();
         int numfactorial = factorial(number);
-        System.err.printf("Hasil factorial dari %d adalah: %d ", number, numfactorial);
+        System.out.printf("Hasil factorial dari %d adalah: %d ", number, numfactorial);
     }
     
 }
